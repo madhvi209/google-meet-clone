@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.navigation_bar{
+    position: absolute;
+    top:0;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 1.5% 2%;
+
+}
+
+.meet_btn{
+    background-color: transparent;
+    border:transparent;
+    cursor: pointer;
+}
+
+.logo{
+    height:100%;
+    width:200px;
+
+}
+
+.meet_logo{
+    width:100%;
+    height:100%;
+}
+
+.navigation{
+    display:flex;
+    gap:50px;
+}
+
+.proof{
+    height:30px;
+    width:30px;
+}
+
+.profile{
+    height:100%;
+    width:100%;
+    border-radius: 50px;
+}
+
+.navigation_right{
+    display:flex;
+    gap:20px
+}
+
+.symbols{
+    display: inline-flex;
+    gap:30px;
+    /* height:30%; */
+    font-size: 20px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    /* opacity: 0.7; */
+}
+
+.setting,
+.question,
+.problem ,
+.google{
+    height:25px;
+    width:20%;
+    opacity: 0.7;
+}
+
+.date{
+    opacity:0.5;
+    font-weight: 100;
+}
+
+.hero{
+    position: absolute;
+    
+    top:32%;
+    left:5%;
+}
+
+.img{
+    position: absolute;
+    padding-top: 11%;
+    left:63%;
+}
+
+
+.hero_dis{
+    font-size: 45px;
+    font-weight: 50;
+    font-family: Google Sans Display,Roboto,Arial,sans-serif;
+    padding-bottom: 25px;
+}
+
+.hero_sub{
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+
+.meeting{
+    /* position: relative; */
+    height:45px;
+    width:150px;
+    color:white;
+    background-color: rgb(27 115 232);
+    border-radius: 3px;
+    font-family:"Google Sans",Roboto,Arial,sans-serif; 
+    border-color: rgb(27 115 232);
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.link{
+    height:45px;
+    width:200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 100%;
+    border-style: solid;
+    
+}
+
+.join{
+    color:rgb(27 115 232);
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    font-size: 100%;
+    padding-left: 5%;
+}
+
+
+.footer{
+    position: absolute;
+    top:75%;
+    left:5%;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px rgb(128, 128, 128,0.3) solid ;
+    padding-top: 1.5%;
+    width:38%;
+
+}
+
+.learn_more{
+    color:rgb(27 115 232) ;
+    font-style: none;
+    
+}
